@@ -20,17 +20,13 @@ This module is ideal for Magento stores that want to:
 
 ## Key Features
 
-- Resolver-Driven TTL Aggregation
-  Resolver code can dynamically register TTLs using ResolverTtlStoreInterface, either with explicit seconds or based on future dates (with support for start-of-day and end-of-day cutoffs).
+- **Resolver-Driven TTL Aggregation** Resolver code can dynamically register TTLs using ResolverTtlStoreInterface, either with explicit seconds or based on future dates (with support for start-of-day and end-of-day cutoffs).
 
-- Automatic Cache Header Population
-  This plugin will intercept GraphQL response rendering and applies the minimum TTL collected during the query lifecycle, enabling fine-grained cache-control behavior for GraphQL results.
+- **Automatic Cache Header Population** This plugin will intercept GraphQL response rendering and applies the minimum TTL collected during the query lifecycle, enabling fine-grained cache-control behavior for GraphQL results.
 
-- Supports Flexible Input
-  TTL input can be an integer, a DateTimeImmutable object, or a string (auto-parsed using the current store’s timezone).
+- **Supports Flexible Input** TTL input can be an integer, a DateTimeImmutable object, or a string (auto-parsed using the current store’s timezone).
 
-- Integration with Magento’s GraphQlCache system
-  Honors and respects Magento's existing CacheableQuery mechanisms, enhancing them with automatic TTL computation.
+- **Integration with Magento’s GraphQlCache system** Honors and respects Magento's existing CacheableQuery mechanisms, enhancing them with automatic TTL computation.
 
 ## Install
 
