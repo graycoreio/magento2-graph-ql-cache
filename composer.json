@@ -3,7 +3,7 @@
     "description": "A Magento 2 module that modifies the built-in GraphQlCache FPC.",
     "type": "magento2-module",
     "version": "0.0.1",
-    "license": "UNLICENSED",
+    "license": "MIT",
     "authors": [
         {
             "name": "Damien Retzinger",
