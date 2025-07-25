@@ -1,0 +1,42 @@
+{
+    "name": "graycore/magento2-graph-ql-cache",
+    "description": "A Magento 2 module that modifies the built-in GraphQlCache FPC.",
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "license": "UNLICENSED",
+    "authors": [
+        {
+            "name": "Damien Retzinger",
+            "email": "damienwebdev@gmail.com"
+        }
+    ],
+    "archive": {
+        "exclude": [
+            "/docs",
+            "/Test",
+            "README.md"
+        ]
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Graycore\\GraphQlCache\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "require": {
+        "magento/framework": "^102.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
