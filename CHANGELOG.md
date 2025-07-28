@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3](https://github.com/graycoreio/magento2-graph-ql-cache/compare/v0.0.2...v0.0.3) (2025-07-28)
+
+
+### Features
+
+* **deps:** expand mandatory magento framework versions ([#4](https://github.com/graycoreio/magento2-graph-ql-cache/issues/4)) ([95f1ba2](https://github.com/graycoreio/magento2-graph-ql-cache/commit/95f1ba288762cec5b2aa9c9c9a7e939059b299d1))
+
 ## [0.0.2](https://github.com/graycoreio/magento2-graph-ql-cache/compare/v0.0.1...v0.0.2) (2025-07-25)
 
 
