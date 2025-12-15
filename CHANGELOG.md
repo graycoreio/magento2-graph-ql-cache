@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4](https://github.com/graycoreio/magento2-graph-ql-cache/compare/v0.0.3...v0.0.4) (2025-12-15)
+
+
+### Miscellaneous Chores
+
+* gitignore auth.json ([ef92193](https://github.com/graycoreio/magento2-graph-ql-cache/commit/ef92193b4adc1ec828299d86e0a21d0f3955e9cc))
+
 ## [0.0.3](https://github.com/graycoreio/magento2-graph-ql-cache/compare/v0.0.2...v0.0.3) (2025-07-28)
 
 
