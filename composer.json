@@ -2,7 +2,7 @@
     "name": "graycore/magento2-graph-ql-cache",
     "description": "A Magento 2 module that modifies the built-in GraphQlCache FPC.",
     "type": "magento2-module",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +10,7 @@
             "email": "damienwebdev@gmail.com"
         }
     ],
-     "scripts": {
+    "scripts": {
         "lint": "phpcs",
         "post-install-cmd": [
             "([ $COMPOSER_DEV_MODE -eq 0 ] || vendor/bin/phpcs --config-set installed_paths ../../magento/magento-coding-standard/,../../magento/php-compatibility-fork)"
