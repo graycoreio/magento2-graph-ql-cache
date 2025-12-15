@@ -10,6 +10,15 @@
             "email": "damienwebdev@gmail.com"
         }
     ],
+     "scripts": {
+        "lint": "phpcs",
+        "post-install-cmd": [
+            "([ $COMPOSER_DEV_MODE -eq 0 ] || vendor/bin/phpcs --config-set installed_paths ../../magento/magento-coding-standard/,../../magento/php-compatibility-fork)"
+        ],
+        "post-update-cmd": [
+            "([ $COMPOSER_DEV_MODE -eq 0 ] || vendor/bin/phpcs --config-set installed_paths ../../magento/magento-coding-standard/,../../magento/php-compatibility-fork)"
+        ]
+    },
     "archive": {
         "exclude": [
             "/docs",
@@ -35,8 +44,16 @@
             "url": "https://repo.magento.com/"
         }
     ],
+    "require-dev": {
+        "magento/magento-coding-standard": "^38.0",
+        "magento/php-compatibility-fork": "^0.1.0"
+    },
     "config": {
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "magento/composer-dependency-version-audit-plugin": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     }
 }
