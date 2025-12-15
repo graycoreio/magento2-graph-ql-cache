@@ -13,10 +13,15 @@ use Graycore\GraphQlCache\Model\ResolverTtlStore;
 
 class QueryTtl
 {
+    /**
+     * @param ResolverTtlStore $store
+     * @param Config $config
+     */
     public function __construct(
         private ResolverTtlStore $store,
         private Config $config,
-    ) {}
+    ) {
+    }
 
     /**
      * Get the TTL of the query

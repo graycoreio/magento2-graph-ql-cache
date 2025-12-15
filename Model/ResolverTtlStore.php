@@ -20,7 +20,12 @@ class ResolverTtlStore implements ResolverTtlStoreInterface
      */
     private array $_data = [];
 
-    public function __construct(private TimezoneInterface $timezone) {}
+    /**
+     * @param TimezoneInterface $timezone
+     */
+    public function __construct(private TimezoneInterface $timezone)
+    {
+    }
 
     /**
      * @inheritDoc
@@ -30,7 +35,12 @@ class ResolverTtlStore implements ResolverTtlStoreInterface
         $this->_data[] = $ttl;
     }
 
-    private function addImmediateExpiration()
+    /**
+     * Add an immediate expiration value of 1 second.
+     *
+     * @return void
+     */
+    private function addImmediateExpiration(): void
     {
         $this->_data[] = 1;
     }

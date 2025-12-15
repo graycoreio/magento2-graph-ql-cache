@@ -22,9 +22,9 @@ interface ResolverTtlStoreInterface
      * Add TTL calculated as the number of seconds between now and a specific future date.
      *
      * If the date is null, it will be ignored.
-     * 
+     *
      * If the date is a string, it will first be converted to the store's configured timezone and added.
-     * 
+     *
      * If the date is in the past or now, adds 0.
      *
      * @param \DateTimeImmutable $date Target future date and time.
@@ -37,10 +37,10 @@ interface ResolverTtlStoreInterface
      * If the date is null, it will be ignored.
      *
      * If the date is a string, it will first be converted to the store's configured timezone and added.
-     * 
+     *
      * If the date is in the past or now, adds 0.
      *
-     * @param $date Date whose start time is used for TTL calculation.
+     * @param \DateTimeImmutable|null|string $date Date whose start time is used for TTL calculation.
      */
     public function addForStartDate(\DateTimeImmutable | null | string $date): void;
 
@@ -50,7 +50,7 @@ interface ResolverTtlStoreInterface
      * If the date is null, it will be ignored.
      *
      * If the date is a string, it will first be converted to the store's configured timezone and added.
-     * 
+     *
      * If the date is in the past or now, adds 0.
      *
      * @param \DateTimeImmutable $date Date whose end time is used for TTL calculation.

@@ -13,12 +13,12 @@ use Magento\Framework\App\Response\Http as ResponseHttp;
 use Magento\Framework\Controller\ResultInterface;
 use Magento\GraphQlCache\Model\CacheableQuery;
 
-
 class AfterRenderPlugin
 {
     /**
      * @param CacheableQuery $cacheableQuery
      * @param ResponseHttp $response
+     * @param QueryTtl $ttl
      */
     public function __construct(
         private CacheableQuery $cacheableQuery,
