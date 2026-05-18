@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.5](https://github.com/graycoreio/magento2-graph-ql-cache/compare/v0.0.4...v0.0.5) (2026-05-18)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump graycoreio/github-actions-magento2 from [@main](https://github.com/main) to 8.2.0 ([8fc016b](https://github.com/graycoreio/magento2-graph-ql-cache/commit/8fc016b2054a72bfea916cd83355403251025a62))
+* **deps:** upgrade to phpunit 12 ([f5e42b8](https://github.com/graycoreio/magento2-graph-ql-cache/commit/f5e42b8ac38e8208eef43cd9e801d474e4216022))
+
 ## [0.0.4](https://github.com/graycoreio/magento2-graph-ql-cache/compare/v0.0.3...v0.0.4) (2025-12-15)
 
 
