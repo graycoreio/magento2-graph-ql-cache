@@ -7,6 +7,8 @@ The Graycore GraphQL Cache module provides a structured mechanism for managing a
 [![Packagist Downloads](https://img.shields.io/packagist/dm/graycore/magento2-graph-ql-cache?color=blue)](https://packagist.org/packages/graycore/magento2-graph-ql-cache/stats)
 [![Packagist Version](https://img.shields.io/packagist/v/graycore/magento2-graph-ql-cache?color=blue)](https://packagist.org/packages/graycore/magento2-graph-ql-cache)
 [![Packagist License](https://img.shields.io/packagist/l/graycore/magento2-graph-ql-cache)](https://github.com/graycoreio/magento2-graph-ql-cache/blob/main/LICENSE)
+[![MageCheck Status](https://img.shields.io/github/actions/workflow/status/graycoreio/magento2-graph-ql-cache/check-extension.yaml?&label=MageCheck&labelColor=1a1a1a)](https://github.com/graycoreio/magento2-graph-ql-cache/actions/workflows/check-extension.yaml)
+![MageCheck Supported Version](https://img.shields.io/badge/currently_supported-any?label=MageCheck%20Supported&labelColor=1a1a1a&color=090c9b)
 
 </div>
 
