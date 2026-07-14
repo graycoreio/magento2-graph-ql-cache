@@ -58,6 +58,14 @@
 * @damienwebdev
 
 # ================================================
+#  Dependency automation
+# ================================================
+# gray-bot owns the paths Dependabot touches so its auto-approve
+# satisfies "Require review from Code Owners".
+
+/.github/workflows/                                             @damienwebdev @gray-bot
+
+# ================================================
 #  CODEOWNERS Owners owners ...
 # ================================================
 
