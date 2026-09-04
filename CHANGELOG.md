@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.0.6](https://github.com/graycoreio/magento2-graph-ql-cache/compare/v0.0.5...v0.0.6) (2026-09-04)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump graycoreio/github-actions-magento2 from 8.2.0 to 8.5.0 ([#10](https://github.com/graycoreio/magento2-graph-ql-cache/issues/10)) ([002fdb3](https://github.com/graycoreio/magento2-graph-ql-cache/commit/002fdb3dff6735d9581dff3ce0a525865f8f7fa6))
+* **deps:** bump graycoreio/github-actions-magento2/.github/workflows/check-extension.yaml ([#9](https://github.com/graycoreio/magento2-graph-ql-cache/issues/9)) ([faccc42](https://github.com/graycoreio/magento2-graph-ql-cache/commit/faccc42faf9e79a25d0949a9fd30bf771cb9b5ec))
+* **deps:** bump the graycore-actions group with 2 updates ([#17](https://github.com/graycoreio/magento2-graph-ql-cache/issues/17)) ([a599b7a](https://github.com/graycoreio/magento2-graph-ql-cache/commit/a599b7a77a9c073025174128a4c7e4e3da897091))
+* **deps:** bump the graycore-actions group with 2 updates ([#18](https://github.com/graycoreio/magento2-graph-ql-cache/issues/18)) ([97b0cf8](https://github.com/graycoreio/magento2-graph-ql-cache/commit/97b0cf8e6fcd0574a49f0e8489b2bf6890a9e024))
+
 ## [0.0.5](https://github.com/graycoreio/magento2-graph-ql-cache/compare/v0.0.4...v0.0.5) (2026-05-18)
 
 
